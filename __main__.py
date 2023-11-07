@@ -1,4 +1,3 @@
-#!/AppData/Local/Programs/Pyhton310
 from redirection import redirection
 from game.gameplay import Gameplay
 from quiz.quizplay import Quizplay
