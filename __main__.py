@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     # choix entre lancement du jeu ou lancement du quiz
     user_selec = input(
-        f"Que voulez-vous faire {user_identity} ? Vous choissisez le jeu ou le quiz : \n"
+        f"Que voulez-vous faire {user_identity} ? Vous choisissez le jeu ou le quiz : \n"
     ).lower()
     if "jeu" in user_selec:
         G = Gameplay()
