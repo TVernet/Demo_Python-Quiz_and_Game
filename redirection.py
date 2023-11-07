@@ -15,12 +15,7 @@ def redirection():
 
     # option fin
     if "quitter" in user_choice:
-        print(
-            f"""
-                    FIN 
-                    Merci pour votre participation et à bientôt !
-                """
-        )
+        print("FIN. Merci pour votre participation et à bientôt !")
         exit()
 
     # option jeu
