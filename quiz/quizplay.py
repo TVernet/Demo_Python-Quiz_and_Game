@@ -20,7 +20,7 @@ class Quizplay:
             "points pour remporter la partie. A vous de jouer ! \n"
         )
 
-    # définition du comportement attendu
+    # définition du comportement attendu  
     def play(self):
         self.get_rules(self)
         self.points = 0
